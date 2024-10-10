@@ -1,7 +1,9 @@
 #banner {
     height:90vh;
-background: url(mwe.jpeg);
+background: url(leee.jpg);
 background-size: cover;
+background-attachment: fixed;
+background-position: center;
 
 }
 
@@ -17,7 +19,7 @@ background-size: cover;
 .btn-brand {
     background-color: transparent;
     border: 2px solid rgb(77, 185, 185);
-    color: rgb(2, 116, 136);
+    color: rgb(59, 181, 202);
 }
 
 .btn-brand:hover {
@@ -38,7 +40,7 @@ section {
 }
 #about .btn-brand:hover{
     color: rgb(4, 93, 121) !important;
-    border-color: #045d79 !important;
+    border-color: hsl(194, 94%, 25%) !important;
     background-color: bisque;
 }
 #about {
@@ -73,4 +75,67 @@ section {
 }
 #services{
     background-color: bisque;
+}
+
+#cta {
+    height:70vh ;
+background: url(teee.jpg);
+background-size: cover;
+background-position:top;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+}
+#reviews{
+    background-color: beige;
+}
+.testimonials img {
+    width: 200px;
+    background-color: beige;
+}
+.testimonials{
+    border: 2px solid rgb(89, 181, 204);
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+#faq{
+    background-color:bisque;
+}
+.faq-section{
+    max-width: 800px;
+    margin: auto;
+
+}
+.accordion-item{
+    margin-bottom: 20px;
+    border-radius: 0 !important;
+
+}
+.accordion-button{
+    background-color: rgb(121, 121, 121);
+    border: none;
+    border-bottom: 1px solid rgb(105, 105, 105);
+    border-radius: 0 !important;
+    padding: 18px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: backgroun-color 0.3s, color 0.3s;
+
+}
+.accordion-body{
+    border-left: 3px solid rgb(226, 209, 151);
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: bisque;
+}
+.accordion-button:not(.collapsed){
+    background-color: rgb(226, 215, 167);
+    color: antiquewhite;
+}
+.accordion-button:hover{
+    background-color: rgb(221, 194, 145);
+    color: bisque;
 }
